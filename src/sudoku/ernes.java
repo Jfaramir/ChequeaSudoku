@@ -22,9 +22,10 @@ public class ernes {
             
                 for (int k=0;k<matriz.length;k++){
                     for(int m=0;m<matriz[k].length;m++){
+                        System.out.println(error);
                         if(matriz[i][j] == matriz[k][m]){
                             error+=1;
-                            System.out.println(error);
+                            
                         }
                     }
                 }
